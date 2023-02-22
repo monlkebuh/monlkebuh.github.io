@@ -1,0 +1,33 @@
+<a href="https://aaibby.github.io/games.html">
+<button>
+  Back
+  </button>
+</a>
+ <button onclick="var el = document.getElementById('element'); el.requestFullscreen();">
+    Full Screen
+  </button>
+<br>
+<div class="container"> <iframe src="https://html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/?gdpr-tracking=0&gdpr-targeting=0&gdpr-third-party=0&gd_sdk_referrer_url=https://gamedistribution.com/games/snow-rider-3d" width="960" height="600" scrolling="none" frameborder="0" class="element" id="element" src="https://evowars.io/"></iframe>
+</div>
+<style>
+  .container {
+  margin: 10px 1px;
+  max-width: 700px;
+}
+.element p {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+.element:-ms-fullscreen p {
+  visibility: visible;
+}
+
+.element:fullscreen {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+}
+
+</style>
