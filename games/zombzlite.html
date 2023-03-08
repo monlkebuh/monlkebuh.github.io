@@ -1,1 +1,37 @@
-<div style="width: 800px; height: 500px; overflow: hidden"><iframe src="https://studio.code.org/projects/gamelab/9X0hPspLq3jmaM25KCjTm6gPmQTsdOOKZ1A75Mlf9UE/embed" scrolling="no" style="position: relative; left: -7px; top: -10px; width: 440px; height:470px;"/>
+<a href="https://aaibby.github.io/games.html">
+<button>
+  Back
+  </button>
+</a>
+ <button onclick="var el = document.getElementById('element'); el.requestFullscreen();">
+    Full Screen
+  </button>
+<br>
+<br>
+<br>
+<div class="container">
+  <div style="width: 800px; height: 500px; overflow: hidden"><iframe src="https://studio.code.org/projects/gamelab/9X0hPspLq3jmaM25KCjTm6gPmQTsdOOKZ1A75Mlf9UE/embed" scrolling="no" id="element" class="element" style="position: relative; left: -7px; top: -10px; width: 440px; height:470px;"/>
+</div>
+<style>
+  .container {
+  margin: 10px 1px;
+  max-width: 700px;
+}
+.element p {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+.element:-ms-fullscreen p {
+  visibility: visible;
+}
+
+.element:fullscreen {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+}
+
+</style>
+</div>
