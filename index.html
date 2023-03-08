@@ -16,6 +16,7 @@
 </body>
    <center>
 <br>
+     
 <style>
 .grid-container {
   position: relative;
@@ -56,6 +57,93 @@ About
 </div>
 
 </body>
+<div>
+<html lang="en">
+<head>
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h2>Hello!</h2>
+        <p>
+            Thank You for using RocketSpace!<br>
+          If you want to support me consider subscribing to my youtube channel!
+        </p>
+      <a style=" background-color: #080808; border-radius: 3px;" href="https://www.youtube.com/channel/UCONFcOEL305_dV5P10aEFfw">Let's Go!</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<style>
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.popup{
+    background-color: #ffffff;
+  border-width: 6px;
+  border-color: #000000;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 25px;
+}
+  a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+    color: #bfbfbf;
+    text-decoration: none;
+    padding: 5px 0;
+}
+</style>
+<script>
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        2000
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+</script>
+</div>
                    </center>
 <div class="bg">
 <head>
@@ -134,5 +222,6 @@ s
    Font-weight: 900;
    width: 300px;
   }
+
 </style>
 </div
