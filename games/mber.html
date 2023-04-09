@@ -1,0 +1,33 @@
+<a href="/index.html">
+<button>
+  Back
+  </button>
+</a>
+ <button onclick="var el = document.getElementById('element'); el.requestFullscreen();">
+    Full Screen
+  </button>
+<br>
+<div class="container"> <iframe src="https://dddavit.github.io/madburger/" width="480" height="640" scrolling="none" frameborder="0" class="element" id="element" src="https://evowars.io/"></iframe>
+</div>
+<style>
+  .container {
+  margin: 10px 1px;
+  max-width: 700px;
+}
+.element p {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+.element:-ms-fullscreen p {
+  visibility: visible;
+}
+
+.element:fullscreen {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+}
+
+</style>
