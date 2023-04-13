@@ -11,10 +11,21 @@
 
 	</p>
 
-	<button class="game" >
+	<button class="game" style="font-size:23px;" >
 		light Mode
 	</button>
-	</p>
+  <button style="font-size:23px;" class="game" onclick="myWindow1()">Create Window</button>
+<script>
+function myWindow1() {
+    var myWindow1 = window.open('', 'myWindow1', 'scrollbars=1,height='+screen.availHeight+',width='+screen.availWidth);
+    myWindow1.document.write('<!DOCTYPE html>\n\
+<title>Rocketspace</title>\n\
+<p><iframe src="https://aaibby.github.io" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%">\n\
+<script>\n\
+alert("");\n\
+<\x2fscript>');
+}
+</script>
 
 	<script>
 		$('button').on('click', function() {
@@ -89,22 +100,24 @@ EvoWars.io
 </button></a></div>
 
       <div>
-        <img class="pr" src="https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/9c9e529b14731be871b07b89660bbc2a.png"/>
-        <a href="/games/sk.html">
+        <img class="pr" src="https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/9c9e529b14731be871b07b89660bbc2a.png"/><a href="/games/sk.html">
 <button class="game" >Smash Karts
 </button></a></div>
     
       <div>
-        <img class="pr" src="https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/bec6ef1112da9b3a4e67af09b69960df.jpg"/>
-        <a href="/games/co.html">
+        <img class="pr" src="https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/bec6ef1112da9b3a4e67af09b69960df.jpg"/><a href="/games/co.html">
 <button class="game" >Combat Online
 </button></a></div>  
   
       <div>
-        <img class="pr" src="https://i1.silvergames.com/j/b/mad-burger-3.jpg"/>
-        <a href="/games/mber.html">
+        <img class="pr" src="https://i1.silvergames.com/j/b/mad-burger-3.jpg"/><a href="/games/mber.html">
 <button class="game" >Mad Burger 3
 </button></a></div>    
+  
+        <div>
+        <img class="pr" src="https://retro-goal.com/data/image/game/1v1-lol.png"/><a href="/games/1lol.html">
+<button class="game" >1v1.lol
+</button></a></div> 
   
   
 </div>
@@ -176,7 +189,7 @@ s
       font-size: 70%; font-family: arial; color: #fff; font-weight: bold; border-width: 8px; background-color: #121212; transition: all 0.4s ease-out; box-shadow: 1px 1px 10px #000; border-color: #a856f5; border-radius: 8px; border-style: solid; width: 250px; max-width: 290;  margin-right: 7%;  margin-left: 7%; margin-top: 6px; height: 47px; }
   
   .game:hover {
-    transform: scale(1.1); border-width: 5px; box-shadow: 1px 1px 20px #692f9e; margin-top: 10px;
+    transform: scale(1.1); border-width: 5px; box-shadow: 1px 1px 20px #692f9e; margin-top: 10px; 
 } 
   .pr {
     width: 245px; height: 245px; border-radius: 20px;  transition: all 0.35s ease-out; box-shadow: 0 0 5px #a856f5; 
