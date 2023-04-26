@@ -1,11 +1,18 @@
 html {
-  background-color:  #a6a6a6;
+  background-color:  #636363;
   
 }
 
   .pr {
-    width: 86px; height: 46px; border-radius: 20px;  transition: all 0.35s ease-out; box-shadow: 0 0 5px #a856f5; margin: 10px;
+    width: 86px;
+    height: 40px;
+    border-radius: 10px;
+    transition: all 0.35s ease-out;
+    box-shadow: 0 0 5px #a856f5;
+    background-color: #dbdbdb;
+    border-style: solid;
+    margin: 10px;
   }
     .pr:hover {
-    transform: scale(1.035); box-shadow: 0 0 20px #a856f5;
+    transform: scale(1.035); box-shadow: 0 0 20px #a856f5; border-radius: 15px;
   }
