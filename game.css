@@ -1,5 +1,5 @@
 html {
-  background-color:  #636363;
+  background-color:  #222222;
   
 }
 
@@ -16,3 +16,45 @@ html {
     .pr:hover {
     transform: scale(1.035); box-shadow: 0 0 20px #a856f5; border-radius: 15px;
   }
+  .container {
+  margin: 10px 1px;
+  max-width: 700px;
+}
+.element p {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+.element:-ms-fullscreen p {
+  visibility: visible;
+}
+
+.element:fullscreen {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+}
+
+.error {
+   background-color: #222222;
+  border-radius: 4px;
+  border-color: #d64242;
+  color: #d64242;
+  border-width: 3px;
+  
+}
+Button{
+  font-size: 20px;
+  padding: 5px;
+  Border-radius: 5px;
+  border-color: #a856f5;
+  border-style: solid;
+  border-width: 3px;
+  background-color: #121212;
+  color: white;
+  margin-bottom: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  
+}
